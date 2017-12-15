@@ -73,7 +73,7 @@ prompt.get([{
         }
       })
     } else {
-      console.log('nooooo')
+      console.log(colors.red('error: ') + 'The value must be either encrypt or decrypt')
     }
   }
 })
