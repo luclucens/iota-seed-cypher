@@ -58,7 +58,7 @@ prompt.get([{
       })
     } else if (result.taskType === 'decrypt') {
       prompt.get([{
-        name: 'cryptedSeed',
+        name: 'encryptedSeed',
         type: 'string',
         required: true
       }, {
