@@ -69,7 +69,7 @@ prompt.get([{
         if (err) {
           console.error(err)
         } else {
-          decryptSeed(result.cryptedSeed, result.password)
+          decryptSeed(result.encryptedSeed, result.password)
         }
       })
     } else {
