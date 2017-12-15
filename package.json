@@ -1,0 +1,17 @@
+{
+  "name": "iota_seed_encrypter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "prompt": "^1.0.0",
+    "qr-image": "^3.2.0"
+  }
+}
